@@ -65,7 +65,7 @@ class PredictionResponse(BaseModel):
 
 @app.get('/')
 def greet():
-    return {'Welcome to Sheryians AI School Guys'}
+    return {'Welcome to AI Mental Health Prediction'}
 
 
 @app.post('/predict', response_model=PredictionResponse) #6.77777
